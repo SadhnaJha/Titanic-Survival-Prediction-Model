@@ -1,0 +1,20 @@
+import pandas as pd
+from sklearn.preprocessing import LabelEncoder
+
+# Load dataset
+df = pd.read_csv("Titanic-Dataset.csv")
+
+# Show information
+print(df.info())
+print(df.describe())
+
+# Fill missing values
+df["Age"].fillna(df["Age"].mean(), inplace=True)
+df["Embarked"].fillna(df["Embarked"].mode()[0], inplace=True)
+
+# Label Encoding
+le = LabelEncoder()
+df["Sex"] = le.fit_transform(df["Sex"])
+
+# One-Hot Encoding
+df = pd.get_dummies(df, columns=["Embarked"])
