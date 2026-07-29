@@ -1,0 +1,29 @@
+import pandas as pd
+import matplotlib.pyplot as plt
+from sklearn.preprocessing import LabelEncoder
+
+# Load dataset
+df = pd.read_csv("Titanic-Dataset.csv")
+
+# Fill missing values
+df["Age"].fillna(df["Age"].mean(), inplace=True)
+df["Embarked"].fillna(df["Embarked"].mode()[0], inplace=True)
+
+# Encode Sex
+le = LabelEncoder()
+df["Sex"] = le.fit_transform(df["Sex"])
+
+# Encode Embarked
+df = pd.get_dummies(df, columns=["Embarked"])
+
+# Age Distribution
+plt.hist(df["Age"], bins=20)
+plt.title("Age Distribution")
+plt.xlabel("Age")
+plt.ylabel("Count")
+plt.show()
+
+# Save cleaned data
+df.to_csv("Titanic_Cleaned.csv", index=False)
+
+print("Dataset cleaned and saved!")
