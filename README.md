@@ -10,7 +10,7 @@ This project uses the Titanic dataset to predict passenger survival based on fea
 * Age
 * Fare
 * Number of Siblings
-* Number of Parents/Children
+* Number of Parents / Children
 
 
 🛠️ **Technologies Used :-**
