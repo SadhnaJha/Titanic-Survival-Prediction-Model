@@ -34,8 +34,3 @@ The model displays:
 
 🎯 Learning Outcome :-
 This project helped me understand the basic **Machine Learning workflow**, including data preprocessing, feature selection, model training, prediction, and evaluation.
-
-**Sadhna Jha**
-Computer Science & Engineering Student
-
-⭐ If you find this project useful, consider giving it a star!
