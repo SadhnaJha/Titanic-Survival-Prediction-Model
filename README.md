@@ -3,6 +3,7 @@ A beginner-friendly Machine Learning project that predicts whether a passenger s
 
 📌 Project Overview :-
 
+
 This project uses the Titanic dataset to predict passenger survival based on features such as :
 * Passenger Class
 * Sex
