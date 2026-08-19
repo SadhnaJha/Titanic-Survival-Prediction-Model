@@ -2,7 +2,7 @@
 A beginner-friendly Machine Learning project that predicts whether a passenger survived the Titanic disaster using **Logistic Regression**.
 
 📌 Project Overview :-
-This project uses the Titanic dataset to predict passenger survival based on features such as:
+This project uses the Titanic dataset to predict passenger survival based on features such as :
 * Passenger Class
 * Sex
 * Age
@@ -27,8 +27,8 @@ This project uses the Titanic dataset to predict passenger survival based on fea
 7. Predict passenger survival.
 8. Evaluate the model using accuracy.
 
-📊 Output :=
-The model displays:
+📊 Output :-
+The model displays :
 * **Prediction Accuracy**
 * **Survival prediction for a sample passenger**
 
