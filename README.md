@@ -36,4 +36,5 @@ The model displays :
 * Survival prediction for a sample passenger.
 
 🎯 **Learning Outcome :-**
+
 This project helped me understand the basic Machine Learning workflow, including data preprocessing, feature selection, model training, prediction, and evaluation.
