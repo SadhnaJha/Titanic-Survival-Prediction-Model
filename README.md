@@ -1,7 +1,7 @@
 # Titanic Survival Prediction Model :-
-A beginner-friendly Machine Learning project that predicts whether a passenger survived the Titanic disaster using **Logistic Regression**.
+A beginner-friendly Machine Learning project that predicts whether a passenger survived the Titanic disaster using Logistic Regression.
 
-📌 Project Overview :-
+📌 **Project Overview :-**
 
 
 This project uses the Titanic dataset to predict passenger survival based on features such as :
@@ -13,13 +13,13 @@ This project uses the Titanic dataset to predict passenger survival based on fea
 * Number of Parents/Children
 
 
-🛠️ Technologies Used :-
+🛠️ **Technologies Used :-**
 * Python
 * Pandas
 * Scikit-learn
 * Logistic Regression
 
-🔍 Steps :-
+🔍 **Steps :-**
 1. Load the Titanic dataset.
 2. Handle missing values in the `Age` column.
 3. Convert `Sex` into numerical values.
@@ -29,11 +29,11 @@ This project uses the Titanic dataset to predict passenger survival based on fea
 7. Predict passenger survival.
 8. Evaluate the model using accuracy.
 
-📊 Output :-
+📊 **Output :-**
 
 The model displays :
-* **Prediction Accuracy**
-* **Survival prediction for a sample passenger**
+* Prediction Accuracy.
+* Survival prediction for a sample passenger.
 
-🎯 Learning Outcome :-
-This project helped me understand the basic **Machine Learning workflow**, including data preprocessing, feature selection, model training, prediction, and evaluation.
+🎯 **Learning Outcome :-**
+This project helped me understand the basic Machine Learning workflow, including data preprocessing, feature selection, model training, prediction, and evaluation.
