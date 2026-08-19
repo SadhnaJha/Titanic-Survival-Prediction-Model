@@ -1,4 +1,4 @@
-# Titanic Survival Prediction :-
+# Titanic Survival Prediction Model :-
 A beginner-friendly Machine Learning project that predicts whether a passenger survived the Titanic disaster using **Logistic Regression**.
 
 📌 Project Overview :-
